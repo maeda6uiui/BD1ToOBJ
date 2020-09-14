@@ -6,7 +6,8 @@ public class BD1ToOBJMain {
 		// 0: BD1ファイルのファイルパス (変換元)
 		// 1: OBJファイルのファイルパス (変換先)
 		// 2: Z軸を反転させるかどうか
-		if (args.length != 3) {
+		// 3: テクスチャのV座標を反転するかどうか
+		if (args.length != 4) {
 			System.err.println("Java-side error: Invalid number of command-line arguments.");
 			return;
 		}
@@ -21,8 +22,15 @@ public class BD1ToOBJMain {
 			invertZ = true;
 		}
 
+		boolean flipV;
+		if (args[3].equals("false")) {
+			flipV = false;
+		} else {
+			flipV = true;
+		}
+
 		var bd1ToObj = new BD1ToOBJ();
-		int ret = bd1ToObj.convert(filepathBD1, filepathOBJ, invertZ);
+		int ret = bd1ToObj.convert(filepathBD1, filepathOBJ, invertZ, flipV);
 		if (ret == -1) {
 			System.err.println("Java-side error: Failed to convert.");
 			return;
