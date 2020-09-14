@@ -5,7 +5,7 @@
 
 	<groupId>com.github.dabasan</groupId>
 	<artifactId>bd1-to-obj</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<packaging>jar</packaging>
 
 	<name>bd1-to-obj</name>
@@ -20,13 +20,6 @@
 			<groupId>com.github.dabasan</groupId>
 			<artifactId>jxm-bd1</artifactId>
 			<version>0.0.1-rc1</version>
-		</dependency>
-
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.13</version>
-			<scope>test</scope>
 		</dependency>
 	</dependencies>
 </project>
