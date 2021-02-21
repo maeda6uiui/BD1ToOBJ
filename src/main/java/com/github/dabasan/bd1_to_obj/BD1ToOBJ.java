@@ -13,10 +13,6 @@ import com.github.dabasan.jxm.bd1.BD1Manipulator;
  *
  */
 public class BD1ToOBJ {
-	public BD1ToOBJ() {
-
-	}
-
 	/**
 	 * 変換処理
 	 * 
