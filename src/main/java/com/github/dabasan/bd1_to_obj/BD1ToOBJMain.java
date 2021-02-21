@@ -8,7 +8,7 @@ import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
 
 public class BD1ToOBJMain {
-	private static String VERSION_STR = "BD1ToOBJ v0.1.0-rc1";
+	private static String VERSION_STR = "BD1ToOBJ v1.0.0-rc1";
 
 	public static void main(String[] args) {
 		// コマンドライン引数を解析するための設定

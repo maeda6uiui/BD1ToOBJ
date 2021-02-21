@@ -18,7 +18,7 @@ BD1形式のモデルをOBJ形式に変換します。
 ### 使用例
 
 ```
-bd1_to_obj.exe -i map.bd1 -o map.obj -z -f
+bd1-to-obj.exe -i map.bd1 -o map.obj -z -f
 ```
 
 ## 使用上の注意
@@ -39,7 +39,7 @@ Windows以外の環境を使用している方は、`bd1-to-obj.jar`を直接実
 
 ### バージョン
 
-0.1.0-rc1
+1.0.0-rc1
 
 ### ライセンス
 

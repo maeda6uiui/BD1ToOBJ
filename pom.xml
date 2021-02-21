@@ -5,7 +5,7 @@
 
 	<groupId>com.github.dabasan</groupId>
 	<artifactId>bd1-to-obj</artifactId>
-	<version>0.1.0-rc1</version>
+	<version>1.0.0-rc1</version>
 	<packaging>jar</packaging>
 	<name>bd1-to-obj</name>
 	<description>BD1をOBJに変換するプログラム</description>
