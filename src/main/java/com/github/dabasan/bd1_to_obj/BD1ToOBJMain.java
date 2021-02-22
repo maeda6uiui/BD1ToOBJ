@@ -75,7 +75,7 @@ public class BD1ToOBJMain {
 		if (cmd.hasOption("z")) {
 			invertZ = true;
 		}
-		if (cmd.hasOption("v")) {
+		if (cmd.hasOption("f")) {
 			flipV = true;
 		}
 
