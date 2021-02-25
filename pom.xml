@@ -35,9 +35,9 @@
 								<mainClass>com.github.dabasan.bd1_to_obj.BD1ToOBJMain</mainClass>
 							</manifest>
 						</archive>
-						<descriptorRefs>
-							<descriptorRef>jar-with-dependencies</descriptorRef>
-						</descriptorRefs>
+						<descriptors>
+							<descriptor>assembly.xml</descriptor>
+						</descriptors>
 					</configuration>
 					<executions>
 						<execution>
