@@ -57,7 +57,7 @@
         <dependency>
             <groupId>com.github.dabasan</groupId>
             <artifactId>jxm-bd1</artifactId>
-            <version>1.0.0-rc2</version>
+            <version>1.0.0</version>
         </dependency>
 
         <dependency>
