@@ -3,7 +3,7 @@ package com.github.dabasan.bd1_to_obj;
 import org.apache.commons.cli.*;
 
 public class BD1ToOBJMain {
-    private static String VERSION_STR = "BD1ToOBJ v1.0.0-rc2";
+    private static String VERSION_STR = "BD1ToOBJ v1.0.0";
 
     public static void main(String[] args) {
         // コマンドライン引数を解析するための設定
