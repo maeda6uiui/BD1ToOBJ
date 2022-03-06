@@ -18,18 +18,8 @@ BD1形式のモデルをOBJ形式に変換します。
 ### 使用例
 
 ```
-bd1-to-obj.exe -i map.bd1 -o map.obj -z -f
+java -jar bd1-to-obj-1.0.1.jar -i map.bd1 -o map.obj -z -f
 ```
-
-## 使用上の注意
-
-このプログラムには[JXM (Java XOPSManipulator)](https://github.com/Dabasan/jxm)が使用されています。
-JavaがインストールされていないWindowsマシンでも動作するように、Windows用のJREが同封されています。
-
-リリースに含まれる`bd1-to-obj.exe`は内部で`bd1-to-obj.jar`を実行しています。
-
-Windows以外の環境を使用している方は、`bd1-to-obj.jar`を直接実行してください。
-この場合には、Java 11以上が必要になります。
 
 ## プログラム情報
 
@@ -39,10 +29,8 @@ Windows以外の環境を使用している方は、`bd1-to-obj.jar`を直接実
 
 ### バージョン
 
-1.0.0
+1.0.1
 
-### ライセンス
-
-JREのライセンスについては、JRE/legalを参照してください。
-その他のファイルはGPLライセンスの下に公開されています。
+開発環境をUbuntuに移行した関係で、バージョン1.0.1からはJREおよび実行ファイル(EXE)の配布は行いません。
+あらかじめご了承ください。
 
