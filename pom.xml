@@ -5,7 +5,7 @@
 
     <groupId>com.github.dabasan</groupId>
     <artifactId>bd1-to-obj</artifactId>
-    <version>1.0.1</version>
+    <version>2.0.0</version>
     <packaging>jar</packaging>
     <name>bd1-to-obj</name>
     <description>BD1をOBJに変換するプログラム</description>
@@ -34,7 +34,7 @@
                     <configuration>
                         <archive>
                             <manifest>
-                                <mainClass>com.github.dabasan.bd1_to_obj.BD1ToOBJMain</mainClass>
+                                <mainClass>com.github.maeda6uiui.bd1toobj.BD1ToOBJMain</mainClass>
                             </manifest>
                         </archive>
                         <descriptors>
@@ -59,7 +59,7 @@
         <dependency>
             <groupId>com.github.dabasan</groupId>
             <artifactId>jxm-bd1</artifactId>
-            <version>1.0.2</version>
+            <version>1.0.5</version>
         </dependency>
 
         <dependency>
