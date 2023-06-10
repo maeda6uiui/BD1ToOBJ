@@ -18,7 +18,7 @@ BD1形式のモデルをOBJ形式に変換します。
 ### 使用例
 
 ```
-java -jar bd1-to-obj-1.0.1.jar -i map.bd1 -o map.obj -z -f
+java -jar b2o.jar -i map.bd1 -o map.obj -z -f
 ```
 
 ## プログラム情報
