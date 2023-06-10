@@ -26,7 +26,7 @@ public class BD1ToOBJ {
         try {
             manipulator = new BD1Manipulator(filepathBD1);
         } catch (IOException e) {
-            System.err.println("Java-side error: Failed to open file.");
+            System.err.println("Failed to open file.");
             e.printStackTrace();
 
             return -1;
